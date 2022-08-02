@@ -1,0 +1,33 @@
+{
+    "name": "magenizr/magento2-mediagalleryfolder",
+    "description": "Make your directories from pub/media available in the Media Gallery without workarounds.",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "OSL-3.0"
+    ],
+    "authors": [
+        {
+            "name": "Magenizr",
+            "email": "modules@magenizr.com",
+            "homepage": "https://www.magenizr.com"
+        }
+    ],
+    "keywords": [
+        "Magento 2",
+        "Admin",
+        "Backend",
+        "Media",
+        "Gallery",
+        "Directories",
+        "Whitelist"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Magenizr\\MediaGalleryFolder\\": ""
+        }
+    }
+}

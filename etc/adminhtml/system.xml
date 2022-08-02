@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <section id="system" showInDefault="1" showInWebsite="1" showInStore="1" sortOrder="80" translate="label">
+            <tab>advanced</tab>
+            <resource>Magenizr_MediaGalleryFolder::configuration</resource>
+            <group id="magenizr_media_gallery_folder" translate="label comment" sortOrder="1020" showInDefault="1" showInWebsite="0" showInStore="0">
+                <label>Media Gallery Folder</label>
+                <field id="enabled" translate="label" type="select" sortOrder="10" showInDefault="1" showInWebsite="0" showInStore="0">
+                    <label>Enabled</label>
+                    <comment><![CDATA[If enabled, this module will add your own directory located in <i>pub/media</i> to the Media Gallery.]]></comment>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                </field>
+                <field id="folder_list" translate="label" sortOrder="20" showInDefault="1" showInWebsite="0" showInStore="0">
+                    <label>Folders</label>
+                    <frontend_model>Magenizr\MediaGalleryFolder\Block\Adminhtml\Form\Field\FolderList</frontend_model>
+                    <backend_model>Magento\Config\Model\Config\Backend\Serialized\ArraySerialized</backend_model>
+                    <comment><![CDATA[Path must be relatively from <i>pub/media</i>.]]></comment>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>
