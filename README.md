@@ -1,3 +1,6 @@
+[![Magenizr Plus](https://images2.imgbox.com/11/6b/yVOOloaA_o.gif)](https://account.magenizr.com)
+---
+
 # Media Gallery Folder
 Magento allows the media gallery access to the directory `wysiwyg` and `catalog` only. Unfortunately, other directories cannot be added easily, unless you create a module as explained in [Modify media library folder permissions
 ](https://developer.adobe.com/commerce/php/tutorials/backend/modify-image-library-permissions/) which is not suitable for most store owners.
@@ -15,21 +18,6 @@ We decided to close this problem by creating an interface where directories can 
 ## System Requirements
 - Magento 2.4.3-p1 or higher
 - PHP 7.x
-
-## Installation (Composer)
-
-1. Update your composer.json `composer require "magenizr/magento2-mediagalleryfolder":"1.0.0" --no-update`
-2. Install dependencies and update your composer.lock `composer update --lock`
-
-```
-./composer.json has been updated
-Loading composer repositories with package information
-Updating dependencies (including require-dev)              
-Package operations: 1 install, 0 updates, 0 removals
-  - Installing magenizr/magento2-mediagalleryfolder (1.0.0): Downloading (100%)
-Writing lock file
-Generating autoload files
-```
 
 ## Installation (Composer 2)
 
@@ -66,7 +54,6 @@ php bin/magento setup:upgrade
 
 ```
 php bin/magento module:enable Magenizr_MediaGalleryFolder --clear-static-content
-php bin/magento setup:upgrade
 ```
 
 ## Features
