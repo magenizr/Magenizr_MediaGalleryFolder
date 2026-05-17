@@ -1,5 +1,3 @@
----
-
 # Media Gallery Folder
 Magento allows the media gallery access to the directory `wysiwyg` and `catalog` only. Unfortunately, other directories cannot be added easily, unless you create a module as explained in [Modify media library folder permissions
 ](https://developer.adobe.com/commerce/php/tutorials/backend/modify-image-library-permissions/) which is not suitable for most store owners.
