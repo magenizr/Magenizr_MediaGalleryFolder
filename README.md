@@ -73,15 +73,19 @@ php bin/magento module:enable Magenizr_MediaGalleryFolder --clear-static-content
 ## Support
 If you experience any issues, don't hesitate to open an issue on [Github](https://github.com/magenizr/Magenizr_Debugger/issues). For a custom build, don't hesitate to contact us on [Magento Marketplace](https://marketplace.magento.com/partner/magenizr).
 
-## Purchase
-This module is available for free on [GitHub](https://github.com/magenizr). If you purchase the module on [Magenizr Shop](https://shop.magenizr.com) or [Magento Marketplace](https://marketplace.magento.com/partner/magenizr) we offer 60 days free support, 90 days warranty and 12 month free updates.
-
-## Contact
-Follow us on [GitHub](https://github.com/magenizr), [Twitter](https://twitter.com/magenizr) and [Facebook](https://www.facebook.com/magenizr).
-
 ## History
 ===== 1.0.0 =====
 * Stable version
 
 ## License
 [OSL - Open Software Licence 3.0](https://opensource.org/licenses/osl-3.0.php)
+
+---
+
+## About [Magenizr](https://www.magenizr.com.au/)
+
+Built and maintained by [Magenizr](https://www.magenizr.com.au/) — an Australian [Adobe Commerce & Magento development agency](https://www.magenizr.com.au/services/adobe-commerce/) based in Bendigo, Victoria. We build custom Magento modules, handle platform migrations, and provide ongoing support for businesses across [Melbourne](https://www.magenizr.com.au/web-development-melbourne/), Sydney, Brisbane and the DACH region.
+
+- [Our Services](https://www.magenizr.com.au/services/adobe-commerce/) — Custom modules, migrations, support
+- [Book a Free Consultation](https://www.magenizr.com.au/book/) — 30-minute call, no obligation
+- [All Open-Source Modules](https://github.com/magenizr) — Our full collection on GitHub
